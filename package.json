@@ -1,0 +1,52 @@
+{
+  "name": "doloremmodi",
+  "version": "1.0.0",
+  "description": "Do like notation for typescript and fp-ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.js",
+  "keywords": [
+    "functional",
+    "do",
+    "notation",
+    "veniam",
+    "ullam",
+    "nostrum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KearaSchaden/doloremmodi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KearaSchaden/doloremmodi.git/issues"
+  },
+  "author": "JerrySchimmel",
+  "license": "MIT",
+  "dependencies": {
+    "fp-ts": "^1.0.0-rc"
+  },
+  "devDependencies": {
+    "@types/jest": ">=22.0.1",
+    "@types/jest-matchers": ">=20.0.1",
+    "@types/ramda": "types/npm-ramda#dist",
+    "jest": ">=22.1.4",
+    "jest-matchers": ">=20.0.3",
+    "ramda": ">=0.25.0",
+    "ts-jest": ">=22.0.1",
+    "ts-lint": ">=4.5.1",
+    "ts-node": ">=4.1.0",
+    "tslint": "^5.9.1",
+    "typescript": ">=2.6.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  },
+  "homepage": "https://github.com/KearaSchaden/doloremmodi.git"
+}
